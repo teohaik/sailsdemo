@@ -1,3 +1,2 @@
 # sailsdemo
-
-a [Sails](http://sailsjs.org) application
+My First Sails.js App
