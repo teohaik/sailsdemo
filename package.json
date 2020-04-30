@@ -22,11 +22,14 @@
     "rc": "1.0.1",
     "sails": "~0.12.13",
     "sails-disk": "~0.10.9",
-    "sails-mongo": "^0.12.2"
+    "sails-mongo": "^0.12.2",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "app.js",
   "repository": {
@@ -34,5 +37,6 @@
     "url": "git://github.com/anonymous node/sails user/sailsdemo.git"
   },
   "author": "anonymous node/sails user",
-  "license": ""
+  "license": "",
+  "snyk": true
 }
