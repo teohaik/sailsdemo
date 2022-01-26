@@ -6,7 +6,7 @@
   "keywords": [],
   "dependencies": {
     "ejs": "2.3.4",
-    "grunt": "1.0.1",
+    "grunt": "1.0.3",
     "grunt-contrib-clean": "1.0.0",
     "grunt-contrib-coffee": "1.0.0",
     "grunt-contrib-concat": "1.0.1",
@@ -20,7 +20,7 @@
     "grunt-sync": "0.5.2",
     "include-all": "^1.0.0",
     "rc": "1.0.1",
-    "sails": "~0.12.13",
+    "sails": "~1.0.0",
     "sails-disk": "~0.10.9",
     "sails-mongo": "^0.12.2"
   },
